@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <title>A vous de jouer</title>
+  <link rel="stylesheet" href="CréezVotrePizza.css">
+</head>
+
+
+
+<body>
+		
+			<section id="Base">
+				<div class="placement">
+			<a = href="#Ancrage1" class="bouton">Go</a>
+		</div>
+
+		<ul>
+					<li><a = href="Pizza1.html">Quitter</a></li>
+			</ul>
+		</section>
+
+	<section id="Ancrage1">
+		<!--<img src="https://img.icons8.com/cotton/2x/pizza--v1.png" alt="Image qui suit la souris" id="image_suit_souris" style="position:absolute;display:block;z-index:5;" />-->
+		<div id="titre">
+		<h1>La pizza viande hachée</h1>
+	</div>
+		
+		
+		<header>
+			<ul>
+					<li><a = href="#Base">Quitter</a></li>
+					<li><a = href="#Ancrage2">Passer</a></li>
+			</ul>
+
+		</header>
+	</section>
+
+	<section id="Ancrage2">
+
+			<div id="titre">
+				<h1>La pizza méditerranéene</h1>
+			</div>
+
+	
+        <header>
+			<ul>
+					<li><a = href="#Base">Quitter</a></li>
+					<li><a = href="#Ancrage3">Passer</a></li>
+			</ul>
+		</header>
+		</section>
+
+		<section id="Ancrage3">
+				<div id="titre">
+				<h1>La pizza végetarienne</h1>
+			</div>
+
+
+        <header>
+			<ul>
+					<li><a = href="#Base">Quitter</a></li>
+				<li><a = href="#Ancrage4">Passer</a></li>	
+			</ul>
+		</header>
+		</section>
+
+		<section id="Ancrage4">
+			<div id="titre">
+			<h1>Indécis ?</h1>
+		</div>
+
+			<div class="Indécis">
+
+				<h3>Aucune de nos pizzas de nous convient ?</h3>
+				<h2>Alors créez la votre !</h2>
+			</div>
+			<header>
+				<div class="fin">
+			<ul>
+					<li><a = href="CréezVotrePizza.html">Non. </a></li>
+				<li><a = href="PizzaNicolas.html">J'y vais !</a></li>	
+			</ul>
+
+		</div>
+		</header>
+
+				
+		</section>
+
+<script type="text/javascript">
+
+
+				/*document.onmousemove = suitsouris;
+                function suitsouris(evenement)
+                {
+                      
+                                var x =  evenement.pageX;
+                                var y =  evenement.pageY;
+                
+                        document.getElementById("image_suit_souris").style.left = (x+1)+'px';
+                        document.getElementById("image_suit_souris").style.top  = (y+1)+'px';
+                }*/
+
+
+	
+	function Verif1()
+	{
+		var valeur;
+	if (document.getElementById('choix1').checked) 
+	{
+ 	valeur = document.getElementById('choix1').value;
+ 	alert(valeur);
+ 	}
+
+ 	else
+ 	{
+ 		if(document.getElementById('choix2').checked)
+ 		{
+ 			valeur = document.getElementById('choix2').value;
+ 			alert(valeur);
+ 		}
+ 		else
+ 		{
+ 			valeur = document.getElementById('choix3').value;
+ 			alert(valeur);
+ 		}	
+ 	}
+}
+
+function Verif2()
+	{
+		var valeur2;
+	if (document.getElementById('choix4').checked) 
+	{
+ 	valeur2 = document.getElementById('choix4').value;
+ 	alert(valeur2);
+ 	}
+
+ 	else
+ 	{
+ 		if(document.getElementById('choix5').checked)
+ 		{
+ 			valeur2 = document.getElementById('choix5').value;
+ 			alert(valeur2);
+ 		}
+ 		else
+ 		{
+ 			if(document.getElementById('choix6').checked)
+ 			{
+				valeur2 = document.getElementById('choix6').value;
+ 				alert(valeur2);
+ 			}
+ 			else
+ 			{
+ 				valeur2 = document.getElementById('choix7').value;
+ 				alert(valeur2);
+ 			}
+ 			
+ 		}	
+ 	}
+}
+
+
+function Verif3()
+	{
+		var valeur3;
+	if (document.getElementById('choix8').checked) 
+	{
+ 	valeur3 = document.getElementById('choix8').value;
+ 	alert(valeur);
+ 	}
+
+ 	else
+ 	{
+ 		if(document.getElementById('choix9').checked)
+ 		{
+ 			valeur3 = document.getElementById('choix9').value;
+ 			alert(valeur3);
+ 		}
+ 		else
+ 		{
+ 			valeur3 = document.getElementById('choix10').value;
+ 			alert(valeur3);
+ 		}	
+ 	}
+}
+
+
+ 	
+	
+</script>
+
+
+</body>
+
+
+</html>
+

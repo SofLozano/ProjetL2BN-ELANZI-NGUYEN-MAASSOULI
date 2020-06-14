@@ -1,0 +1,127 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: fantasy;
+	
+}
+
+
+html
+{
+	scroll-behavior: smooth;
+	overflow-y: hidden;
+}
+
+
+body
+{
+	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("https://mma.prnewswire.com/media/1007725/Pizza_Pizza_Limited_Pizza_Pizza_pr_sente_les___pizzas_gourmet_mi.jpg?p=publish&w=950");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+h1
+ {
+
+ 	font-size: 75px;
+ 	color: white;
+ 	animation-delay: 0s;
+  	animation-duration: 3s;
+  	animation-name: titre;
+  	text-shadow: 4px;
+  	position: absolute;
+  	top: 50%;
+ 	left:50%;
+ 	transform: translate(-50%,-50%);
+ }
+
+
+ @keyframes titre{
+	from{
+		color: rgba(255,255,255,0);
+	}
+	to{
+		color: rgba(255,255,255,1);
+	}
+
+}
+
+.BTN
+{
+	position: absolute;
+  	top: 50%;
+ 	left:50%;
+ 	transform: translate(-50%,-50%);
+ 	margin-top: 60px;
+ 	animation-delay: 0s;
+  	animation-duration: 3s;
+  	animation-name: yes;
+  	text-shadow: 4px;
+
+}
+
+
+
+.bouton
+{
+	
+	color : white;
+	padding: 15px 10px;
+	text-decoration: none;
+	width: 350px;
+	transition: 0.8s ease;
+	animation-delay: 0s;
+  	animation-duration: 3s;
+  	animation-name: yes;
+}
+
+.bouton:hover
+{
+	background-color: rgba(255,255,255,0.8);
+	color:black;
+	border-bottom: solid 1px white;
+}
+
+@keyframes yes{
+	from{
+		color: rgba(255,255,255,0);
+	}
+	to{
+		color: rgba(255,255,255,0.9);
+	}
+}
+
+section
+{
+	height:100%;
+	width: 100%;
+}
+
+
+
+#Ancrage
+{
+
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9)),url("https://oaformation.com/wp-content/uploads/2019/07/Ouvrir-sa-pizzeria.jpg");
+	background-size: cover;
+	background-position: center;
+	color:white;
+	text-align: center;
+
+}
+
+.LARECETTE
+{	
+	position: absolute;
+  	top: 150%;
+ 	left:50%;
+ 	transform: translate(-50%,-50%);
+ 	font-size: 30px;
+}
+
+
+.deplacer
+{
+	padding-top: 530px;
+}

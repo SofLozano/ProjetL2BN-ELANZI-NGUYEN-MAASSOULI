@@ -1,0 +1,237 @@
+html
+{
+	scroll-behavior: smooth;
+	overflow-y: hidden;
+}
+
+
+body
+{
+	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.6)), url("https://images7.alphacoders.com/858/thumb-1920-858236.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+*{
+	margin:0;
+	padding: 0;
+	font-family: fantasy;
+	
+}
+
+
+.placement
+{
+	position: absolute;
+  	top: 50%;
+ 	left:50%;
+ 	transform: translate(-50%,-50%);
+}
+
+
+.bouton
+{
+	
+	
+	background-color: rgba(255,255,255,0.1);
+	box-shadow: 3px 3px 7px #aaa;
+	width:115px;
+	height:115px;
+	border-radius:75%;
+	color:white;
+	font-size: 30px;
+	transition-duration: 2s;
+	padding: 40px 40px;
+	text-decoration: none;
+	border:3px white inset;
+}
+
+
+.bouton:hover
+{
+	cursor: pointer;
+	/*background-image: url("https://lh3.googleusercontent.com/proxy/DKJxNK9JviRhDGlWiLcWMaL8cCVu8L4br4dhpddm1q5mqMSoVNlCwQ2LRDAr6nzjQN-WwrVO2cEMzpVJ8yvHrdbsk6K3PYvymr2kqvRz--WJ2gWPOI7kRRnXoTrN_Jh3_wkDULv--gOo");*/
+	background-color: rgba(255,255,255,0.4);
+	border-radius: 80%;
+	color:black;
+	/*box-shadow: 90px 90px 90px white;*/
+	-webkit-box-shadow: -7px 0px 178px 23px rgba(255,255,255,1);
+	-moz-box-shadow: -7px 0px 178px 23px rgba(255,255,255,1);
+	box-shadow: -7px 0px 178px 23px rgba(255,255,255,1);
+}
+
+section
+{
+	height:100%;
+	width: 100%;
+}
+
+
+
+#Ancrage1
+{
+
+	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.6)),url("https://www.admagazine.fr/uploads/images/thumbs/202007/08/7000082973108_116768816535142_3855170251276681216_o_jpg_7270_jpeg_3096.jpeg_north_655x437_transparent.jpg");
+	background-size: cover;
+	background-position: center;
+	color:white;
+	text-align: center;
+
+}
+
+#Ancrage2
+{
+	
+	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.6)),url("https://illyco-pizza.fr/assets/img/slider/1.jpg");
+	background-size: cover;
+	background-position: center;
+	color:white;
+	text-align: center;
+}
+
+#Ancrage3
+{
+	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.6)),url("https://previews.123rf.com/images/srapulsar38/srapulsar381801/srapulsar38180102577/92824253-fresh-pizzas-with-ingredients-on-a-wooden-background.jpg");
+	background-size: cover;
+	background-position: center;
+	color:white;
+	text-align: center;
+
+}
+
+
+#Ancrage4
+{
+	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.6)),url("https://www.pizzatoday.com/wp-content/uploads/2016/02/AuthenticNYPizza_3_pies.jpg");
+	background-size: cover;
+	background-position: center;
+	color:white;
+	text-align: center;
+
+}
+
+ul
+{
+	
+	list-style-type: none;
+	margin :10px;
+	margin-top: 420px;
+	margin-left: 1180px;
+}
+
+ul li
+{
+	display: inline-block;
+}
+
+ul li a
+{
+	text-align: center;
+	display: block;
+	padding: 0.5em;
+	text-shadow: 1px;
+	text-decoration: none; 
+	color :#fff;
+	
+	border : solid 1px transparent;
+	border-radius: 1px;
+	transition: 0.5s;
+	padding: 10px 20px;
+
+	}
+
+ul li a:hover, 
+ul li a:focus{
+    /*background: #fff;*/
+    opacity: 0.6;
+    border-bottom: 1px solid white;
+    background-color: rgba(255,255,255,0.8);
+    color:black;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .7) inset,
+          }
+
+
+#titre
+{
+	text-align: center;
+
+	padding-top: 25px;
+	font-size: 35px;
+}
+
+#Ch
+{
+	margin-top:35px;
+}
+
+#envoyer1
+{
+	background-color: transparent;
+	margin-left: 600px;
+	margin-top: 15px;
+	text-align: center;
+	display: block;
+	padding: 0.5em;
+	text-shadow: 1px;
+	text-decoration: none; 
+	color :white;
+	/* on améliore l'ecriture dans l'onglet de navigation (pas de soulignement, effet incrusté etc...)*/
+	border : solid 1px transparent;
+	border-radius: 1px;
+	transition: 1s;
+
+}
+
+#envoyer1:hover, 
+#envoyer1:focus{
+    background: #fff;
+    opacity: 0.6;
+    border-bottom: 1px solid white;
+    background-color: rgba(255,255,255,0.8);
+    color:black;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .7) inset,
+    cursor:pointer;
+          }
+
+#envoyer1:hover
+{
+	cursor: pointer;
+}
+
+form
+{
+	margin-top: 30px;
+}
+
+.creme{  
+position: relative;  
+z-index: 1;  
+}  
+.imag:hover{  
+  
+z-index: 2;  
+}  
+.imag {  
+  
+    display:none;  
+}  
+.imag:hover {  
+display:block;  
+position:absolute;  
+z-index: 3;  
+top: -15px;  
+left: 140px; 
+      
+}  
+
+.Indécis 
+{
+	padding-top: 200px;
+	font-size: 20px;
+}
+
+.fin
+{
+	margin-top: -280px;
+}
